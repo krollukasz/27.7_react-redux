@@ -1,6 +1,7 @@
 import React, { Component} from "react";
 import { connect } from "react-redux";
 import { addComment } from "./actions";
+import "./TextContainer.css";
 
 const mapDispatchToProps = (dispatch) => ({
   addComment: (text) => dispatch(addComment(text)) 

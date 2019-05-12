@@ -2,6 +2,10 @@ import React from 'react';
 import './App.css';
 import CommentsListContainer from "./CommentsListContainer";
 import TextContainer from "./TextContainer";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faThumbsUp, faThumbsDown, faTrash } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faThumbsUp, faThumbsDown, faTrash);
 
 const App = () => {
   return (
@@ -13,6 +17,5 @@ const App = () => {
     </div>
   );
 };
-
 
 export default App;

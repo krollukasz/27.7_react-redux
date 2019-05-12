@@ -1,0 +1,54 @@
+.Comment {
+  margin: 6px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f0f0f0;
+}
+
+.Comment .Votes {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #0000ff;
+}
+
+.Comment .Comment-buttons {
+  margin-top: 10px;
+  min-width: 400px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Comment button {
+  background-color: inherit;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.Comment .thumbUp {
+  color: #00e200;
+}
+
+.Comment .thumbUp:hover {
+  color: #00a300;
+}
+
+.Comment .thumbDown {
+  color: #ff5e5e;
+}
+
+.Comment .thumbDown:hover {
+  color: #ff0000;
+}
+
+.Comment .trash {
+  color: #7a7a7a;
+}
+
+.Comment .trash:hover {
+  color: #2b2b2b;
+}
