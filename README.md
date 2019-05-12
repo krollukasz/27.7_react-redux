@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Demo: 
+
+https://krollukasz.github.io/27.7_react-redux/
+
 ## Available Scripts
 
 In the project directory, you can run:
